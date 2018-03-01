@@ -109,8 +109,6 @@ public class ReversedList<T> implements Iterable<T> {
 
         @Override
         public T next() {
-            if ((T) elements[index] == null) {
-            }
             return (T) elements[index++];
         }
 
